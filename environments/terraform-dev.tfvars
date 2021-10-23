@@ -1,0 +1,8 @@
+environment_name = "development"
+vm_size          = "Standard_B1ms"
+admin_username   = "azur-andres"
+admin_password   = "vUK&3B*vUK&3B*"
+PGUSERNAME       = "postgres"
+PGDATABASE       = "postgres"
+PGPASSWORD       = "p@ssw0rd42"
+location         = "westeurope"
