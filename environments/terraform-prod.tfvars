@@ -1,8 +1,0 @@
-environment_name = "production"
-vm_size          = "Standard_B2ms"
-admin_username   = "azur-andres"
-admin_password   = "vUK&3B*vUK&3B*"
-PGUSERNAME       = "postgres"
-PGDATABASE       = "postgres"
-PGPASSWORD       = "p@ssw0rd42"
-location         = "westeurope"
