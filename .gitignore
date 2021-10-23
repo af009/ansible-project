@@ -10,6 +10,12 @@
 .idea
 
 tfplan
+**/.environments/*
+**/environments/*
+**/.vars/*
+**/terraform-dev.tfvars
+**/terraform-prod.tfvars
+**/vars/**
 
 # Crash log files
 crash.log
