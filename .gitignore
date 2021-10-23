@@ -65,3 +65,10 @@ roles/**
 *.zip
 *.gzip
 *.tgz
+
+ansible/inventory
+ansible/create_env.yaml
+ansible/install_run_dep.yaml
+ansible/playbook.yaml
+ansible/ansible.cfg
+ansible/vars/**

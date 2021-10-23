@@ -1,11 +1,11 @@
 resource "random_string" "resource_code" {
-  length  = 5
+  length  = 8
   special = false
   upper   = false
 }
 
 resource "azurerm_storage_account" "tfstate" {
-  name                     = "${var.environment_name}tfstate${random_string.resource_code.result}"
+  name                     = "${var.environment_name}state${random_string.resource_code.result}"
   resource_group_name      = azurerm_resource_group.rg-terraform-app.name
   location                 = azurerm_resource_group.rg-terraform-app.location
   account_tier             = "Standard"

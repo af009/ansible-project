@@ -1,6 +1,6 @@
 # Create a random string to generate a unique name
 resource "random_string" "name" {
-  length  = 5
+  length  = 10
   special = false
   upper   = false
 }
