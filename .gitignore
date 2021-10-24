@@ -74,9 +74,15 @@ roles/**
 *.gzip
 *.tgz
 
-ansible/inventory
-ansible/create_env.yaml
-ansible/install_run_dep.yaml
-ansible/playbook.yaml
-ansible/ansible.cfg
-ansible/vars/**
+
+!/environments/
+!/environments/terraform-dev.tfvars
+!/environments/terraform-prod.tfvars
+!/ansible/vars/
+!/ansible/vars/prod.yml
+!/ansible/vars/vars.yml
+!/ansible/ansible.cfg
+!/ansible/create_env.yaml
+!/ansible/install_run_dep.yaml
+!/ansible/inventory
+!/ansible/playbook.yaml

@@ -18,7 +18,6 @@ variable "subnet_id" {
 }
 variable "vm_size" {
   type = string
-  default = "Standard_B1ms"
 }
 variable "admin_username" {
   type = string
