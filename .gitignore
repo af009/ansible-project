@@ -15,8 +15,8 @@ tfplan
 **/.environments/*
 **/environments/*
 **/.vars/*
-**/terraform-dev.tfvars
-**/terraform-prod.tfvars
+terraform-dev.tfvars
+terraform-prod.tfvars
 **/vars/**
 
 # Crash log files
@@ -75,14 +75,5 @@ roles/**
 *.tgz
 
 
-!/environments/
-!/environments/terraform-dev.tfvars
-!/environments/terraform-prod.tfvars
-!/ansible/vars/
-!/ansible/vars/prod.yml
-!/ansible/vars/vars.yml
-!/ansible/ansible.cfg
-!/ansible/create_env.yaml
-!/ansible/install_run_dep.yaml
-!/ansible/inventory
-!/ansible/playbook.yaml
+
+
