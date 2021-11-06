@@ -1,5 +1,5 @@
 # ansible-project
-## We Create a project that uses Terraform to build the infrastructure and Ansible to deploy our app.
+## We Create a project that uses Terraform to build the infrastructure and Ansible to automate the whole configuration of the servers and deploy our application.
 
 
 ![Overview](overview-img.png)
